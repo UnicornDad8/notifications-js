@@ -11,7 +11,7 @@
 - JavaScript
 - Using mediaqueris for Responsive Design
 
-## ✒️ Authors
+## Authors
 
 👤 **Unicorn Dad**
 
