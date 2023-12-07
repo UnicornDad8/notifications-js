@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/26ea51dba3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Toast Notifications</title>
+  </head>
+  <body>
+    <div class="toast-success">
+      <div class="toast-content">
+        <i class="fa-solid fa-check check-icon check-success"></i>
+        <div class="message">
+          <span class="text text-1">Success</span>
+          <span class="text text-2">Your changes have been saved</span>
+        </div>
+      </div>
+      <i class="fa-solid fa-xmark close"></i>
+      <div class="progress-success"></div>
+    </div>
+
+    <div class="toast-info">
+      <div class="toast-content">
+        <i class="fa-solid fa-info info-icon info"></i>
+        <div class="message">
+          <span class="text text-1">Info</span>
+          <span class="text text-2">Our privacy policy has changed</span>
+        </div>
+      </div>
+      <i class="fa-solid fa-xmark close"></i>
+      <div class="progress-info"></div>
+    </div>
+
+    <div class="toast-warning">
+      <div class="toast-content">
+        <i class="fa-solid fa-triangle-exclamation warning-icon warning"></i>
+        <div class="message">
+          <span class="text text-1">Warning</span>
+          <span class="text text-2"
+            >Something not ideal might be happening</span
+          >
+        </div>
+      </div>
+      <i class="fa-solid fa-xmark close"></i>
+      <div class="progress-warning"></div>
+    </div>
+
+    <div class="toast-danger">
+      <div class="toast-content">
+        <i class="fa-solid fa-bug danger-icon danger"></i>
+        <div class="message">
+          <span class="text text-1">Error</span>
+          <span class="text text-2">Something seriously bad happened</span>
+        </div>
+      </div>
+      <i class="fa-solid fa-xmark close"></i>
+      <div class="progress-danger"></div>
+    </div>
+
+    <div class="btn-container">
+      <button class="btn-success">Success</button>
+      <button class="btn-info">Info</button>
+      <button class="btn-warning">Warning</button>
+      <button class="btn-danger">Error</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
